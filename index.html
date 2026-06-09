@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- ============================================================
+       META & SEO
+       ============================================================ -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Phil Collins Darlington — Aspiring IT Professional, Web Developer & Technology Entrepreneur based in Kampala, Uganda. Building premium digital solutions for businesses." />
+  <meta name="keywords" content="web developer Uganda, IT professional Kampala, website design Uganda, tech entrepreneur Uganda, Phil Collins Darlington" />
+  <meta name="author" content="Phil Collins Darlington" />
+
+  <!-- Open Graph (for social sharing previews) -->
+  <meta property="og:title" content="Phil Collins Darlington | Web Developer & IT Professional" />
+  <meta property="og:description" content="Premium web development and IT solutions from Kampala, Uganda." />
+  <meta property="og:type" content="website" />
+
+  <title>Phil Collins Darlington | Web Developer & IT Professional</title>
+
+  <!-- Google Fonts: Space Grotesk (display) + Inter (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Remix Icons (lightweight icon library via CDN) -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVIGATION BAR
+       ============================================================ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+
+      <!-- Logo — replace the text/image as needed -->
+      <a href="#home" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>
+        <img src="images/Collins logo .png" alt="Collins logo" class="logo-image" />
+        <span class="logo-bracket">/&gt;</span>
+      </a>
+
+      <!-- Desktop navigation links -->
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home"         class="nav-link active">Home</a></li>
+        <li><a href="#about"        class="nav-link">About</a></li>
+        <li><a href="#services"     class="nav-link">Services</a></li>
+        <li><a href="#skills"       class="nav-link">Skills</a></li>
+        <li><a href="#portfolio"    class="nav-link">Portfolio</a></li>
+        <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+        <li><a href="#pricing"      class="nav-link">Pricing</a></li>
+        <li><a href="#contact"      class="nav-link">Contact</a></li>
+      </ul>
+
+      <!-- Hire Me CTA -->
+      <a href="#contact" class="btn btn-primary nav-cta">Hire Me</a>
+
+      <!-- Hamburger button for mobile -->
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+    </div>
+  </nav>
+  <!-- End Navbar -->
+
+
+  <!-- ============================================================
+       HERO SECTION
+       ============================================================ -->
+  <section class="hero" id="home">
+
+    <!-- Particle canvas background (drawn by JavaScript) -->
+    <canvas id="particleCanvas"></canvas>
+
+    <!-- Glowing orb decorations (pure CSS) -->
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+
+    <div class="hero-content container">
+      <div class="hero-text">
+
+        <!-- Eyebrow label -->
+        <p class="hero-eyebrow">
+          <span class="eyebrow-dot"></span>
+          Available for freelance work
+        </p>
+
+        <!-- Main headline -->
+        <h1 class="hero-headline">
+          Hi, I'm <span class="gradient-text">Phil-Collins</span><br />
+          <!-- Typing effect target — JS fills this in -->
+          I Build <span class="typed-text" id="typedText"></span><span class="cursor"> |</span>
+        </h1>
+
+        <!-- Sub-headline -->
+        <p class="hero-sub">
+          Web Developer · IT Professional · Technology Entrepreneur<br />
+          Kampala, Uganda 🇺🇬
+        </p>
+
+        <!-- CTA buttons -->
+        <div class="hero-cta">
+          <a href="#portfolio" class="btn btn-primary">
+            <i class="ri-eye-line"></i> View My Work
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            <i class="ri-send-plane-line"></i> Get In Touch
+          </a>
+        </div>
+
+        <!-- Quick stats -->
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-number">15+</span>
+            <span class="stat-label">Projects Done</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-number">10+</span>
+            <span class="stat-label">Happy Clients</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-number">3+</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Profile photo placeholder -->
+      <div class="hero-image">
+        <div class="profile-frame">
+          <!-- REPLACE: swap the div below with <img src="your-photo.jpg" alt="Phil Collins Darlington"> -->
+          <div class="profile-placeholder">
+            <i class="ri-user-3-line"></i>
+            <!-- Replace above with: <img src="assets/profile.jpg" alt="Phil Collins Darlington" /> -->
+          </div>
+          <div class="profile-ring ring-1"></div>
+          <div class="profile-ring ring-2"></div>
+          <!-- Floating tech badges -->
+          <div class="tech-badge badge-html">HTML</div>
+          <div class="tech-badge badge-css">CSS</div>
+          <div class="tech-badge badge-js">JS</div>
+          <div class="tech-badge badge-java">Java</div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Scroll indicator -->
+    <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+      <div class="scroll-mouse">
+        <div class="scroll-wheel"></div>
+      </div>
+    </a>
+
+  </section>
+  <!-- End Hero -->
+
+
+  <!-- ============================================================
+       ABOUT SECTION
+       ============================================================ -->
+  <section class="section about" id="about">
+    <div class="container">
+
+      <div class="section-header" data-animate>
+        <p class="section-eyebrow">Who I Am</p>
+        <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+        <p class="section-subtitle">Passionate about technology, driven by impact.</p>
+      </div>
+
+      <div class="about-grid">
+
+        <!-- About image / visual card -->
+        <div class="about-visual" data-animate>
+          <div class="about-img-wrap">
+            <!-- REPLACE: swap with your actual image -->
+            <div class="about-img-placeholder">
+              <i class="ri-code-s-slash-line"></i>
+            </div>
+            <!-- Floating info card -->
+            <div class="about-card">
+              <i class="ri-map-pin-2-line"></i>
+              <div>
+                <strong>Based in</strong>
+                <span>Kampala, Uganda</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- About text -->
+        <div class="about-text" data-animate>
+          <h3>Building Digital Experiences That Matter</h3>
+
+          <p>
+            I'm <strong>Phil Collins Darlington</strong>, an aspiring IT professional, web developer,
+            and technology entrepreneur based in the heart of Kampala, Uganda. My journey into
+            technology started with a simple curiosity "How do websites work?". That question
+            sparked a passion that has since grown into a full-blown mission.
+          </p>
+          <p>
+            I specialize in designing and developing clean, fast, and purposeful websites for
+            individuals, startups, and small businesses. Whether you're a local entrepreneur
+            needing your first website or an established business looking to upgrade your digital
+            presence, I'm here to turn your vision into reality.
+          </p>
+          <p>
+            Beyond web development, I provide hands-on IT support, software installation,
+            computer setup, and technical consultation, bridging the gap between complex
+            technology and everyday users right here in Uganda.
+          </p>
+          <p>
+            My long-term vision is ambitious: to build a <strong>technology company</strong>
+            that serves Africa's growing digital economy, creating jobs, solving real problems,
+            and putting Uganda on the global tech map.
+          </p>
+
+          <!-- Personal facts -->
+          <ul class="about-facts">
+            <li><i class="ri-checkbox-circle-line"></i> Open to freelance & part-time contracts</li>
+            <li><i class="ri-checkbox-circle-line"></i> Fluent in English & Luganda</li>
+            <li><i class="ri-checkbox-circle-line"></i> Currently pursuing IT studies</li>
+            <li><i class="ri-checkbox-circle-line"></i> Passionate about African tech growth</li>
+          </ul>
+
+          <div class="about-cta">
+            <!-- REPLACE: link to your actual CV file -->
+            <a href="#" class="btn btn-primary" download>
+              <i class="ri-download-line"></i> Download CV
+            </a>
+            <a href="#contact" class="btn btn-ghost">
+              <i class="ri-chat-1-line"></i> Let's Talk
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- End About -->
+
+
+  <!-- ============================================================
+       SERVICES SECTION
+       ============================================================ -->
+  <section class="section services" id="services">
+    <div class="container">
+
+      <div class="section-header" data-animate>
+        <p class="section-eyebrow">What I Offer</p>
+        <h2 class="section-title">My <span class="gradient-text">Services</span></h2>
+        <p class="section-subtitle">End-to-end digital solutions tailored for real-world results.</p>
+      </div>
+
+      <div class="services-grid">
+
+        <!-- Service Card — repeat pattern for each service -->
+        <div class="service-card" data-animate>
+          <div class="service-icon"><i class="ri-layout-masonry-line"></i></div>
+          <h3>Website Design</h3>
+          <p>Pixel-perfect UI/UX design that converts visitors into customers. Every layout crafted for clarity, beauty, and purpose.</p>
+          <span class="service-tag">UI / UX</span>
+        </div>
+
+        <div class="service-card" data-animate>
+          <div class="service-icon"><i class="ri-code-box-line"></i></div>
+          <h3>Website Development</h3>
+          <p>Clean, fast, and scalable websites built from the ground up using modern HTML, CSS, and JavaScript technologies.</p>
+          <span class="service-tag">Dev</span>
+        </div>
+
+        <div class="service-card" data-animate>
+          <div class="service-icon"><i class="ri-building-2-line"></i></div>
+          <h3>Business Websites</h3>
+          <p>Professional online presence for your business — brand-aligned, mobile-ready, and designed to build trust with your audience.</p>
+          <span class="service-tag">Business</span>
+        </div>
+
+        <div class="service-card" data-animate>
+          <div class="service-icon"><i class="ri-store-2-line"></i></div>
+          <h3>E-commerce Websites</h3>
+          <p>Fully functional online stores with product management, secure checkout, and a seamless shopping experience for your customers.</p>
+          <span class="service-tag">E-commerce</span>
+        </div>
+
+        <div class="service-card" data-animate>
+          <div class="service-icon"><i class="ri-tools-line"></i></div>
+          <h3>Website Maintenance</h3>
+          <p>Regular updates, security patches, content changes, and performance monitoring to keep your site running smoothly 24/7.</p>
+          <span class="service-tag">Maintenance</span>
+        </div>
+
+        <div class="service-card" data-animate>
+          <div class="service-icon"><i class="ri-graduation-cap-line"></i></div>
+          <h3>Coursework Assistance</h3>
+          <p>Helping IT and computer science students with assignments, projects, and practical understanding of technical concepts.</p>
+          <span class="service-tag">Students</span>
+        </div>
+
+        <div class="service-card" data-animate>
+          <div class="service-icon"><i class="ri-install-line"></i></div>
+          <h3>Software Installation</h3>
+          <p>Fast and reliable installation of operating systems, productivity software, antivirus, and specialized applications on any device.</p>
+          <span class="service-tag">Software</span>
+        </div>
+
+        <div class="service-card" data-animate>
+          <div class="service-icon"><i class="ri-computer-line"></i></div>
+          <h3>Computer Setup & Configuration</h3>
+          <p>Complete PC/laptop setup — from hardware assembly to driver installation, system optimization, and user account configuration.</p>
+          <span class="service-tag">Hardware</span>
+        </div>
+
+        <div class="service-card" data-animate>
+          <div class="service-icon"><i class="ri-customer-service-2-line"></i></div>
+          <h3>IT Support</h3>
+          <p>Responsive technical support for individuals and small offices. Fast troubleshooting of software issues, networks, and devices.</p>
+          <span class="service-tag">Support</span>
+        </div>
+
+        <div class="service-card" data-animate>
+          <div class="service-icon"><i class="ri-presentation-line"></i></div>
+          <h3>Technical Consultation</h3>
+          <p>Strategic tech advice for businesses — whether choosing the right tools, planning a digital transformation, or evaluating software.</p>
+          <span class="service-tag">Consulting</span>
+        </div>
+
+        <div class="service-card featured-card" data-animate>
+          <div class="service-icon"><i class="ri-lightbulb-flash-line"></i></div>
+          <h3>Digital Solutions for Small Businesses</h3>
+          <p>Affordable, all-in-one digital packages — website, email setup, basic SEO, and ongoing support tailored for Uganda's SMEs.</p>
+          <span class="service-tag">SME</span>
+          <div class="card-popular-badge">Most Popular</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- End Services -->
+
+
+  <!-- ============================================================
+       SKILLS SECTION
+       ============================================================ -->
+  <section class="section skills" id="skills">
+    <div class="container">
+
+      <div class="section-header" data-animate>
+        <p class="section-eyebrow">My Toolkit</p>
+        <h2 class="section-title">Skills &amp; <span class="gradient-text">Expertise</span></h2>
+        <p class="section-subtitle">Tools and technologies I work with every day.</p>
+      </div>
+
+      <div class="skills-grid">
+
+        <!-- Left: Skill bars -->
+        <div class="skills-bars" data-animate>
+          <h3 class="skills-sub-heading">Technical Proficiency</h3>
+
+          <!-- Skill bar — data-level sets the fill % -->
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">HTML5</span>
+              <span class="skill-percent">90%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-level="90"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">CSS3</span>
+              <span class="skill-percent">85%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-level="85"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">JavaScript</span>
+              <span class="skill-percent">75%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-level="75"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">Java</span>
+              <span class="skill-percent">65%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-level="65"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">Git</span>
+              <span class="skill-percent">80%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-level="80"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">GitHub</span>
+              <span class="skill-percent">80%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-level="80"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">Problem Solving</span>
+              <span class="skill-percent">88%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-level="88"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">Technical Support</span>
+              <span class="skill-percent">85%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-level="85"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Skill icon cards -->
+        <div class="skills-icons" data-animate>
+          <h3 class="skills-sub-heading">Technologies &amp; Tools</h3>
+          <div class="icon-grid">
+            <div class="icon-card"><i class="ri-html5-line"></i><span>HTML5</span></div>
+            <div class="icon-card"><i class="ri-css3-line"></i><span>CSS3</span></div>
+            <div class="icon-card"><i class="ri-javascript-line"></i><span>JavaScript</span></div>
+            <div class="icon-card"><i class="ri-terminal-box-line"></i><span>Java</span></div>
+            <div class="icon-card"><i class="ri-git-branch-line"></i><span>Git</span></div>
+            <div class="icon-card"><i class="ri-github-line"></i><span>GitHub</span></div>
+            <div class="icon-card"><i class="ri-smartphone-line"></i><span>Responsive</span></div>
+            <div class="icon-card"><i class="ri-search-eye-line"></i><span>SEO</span></div>
+            <div class="icon-card"><i class="ri-windows-line"></i><span>Windows</span></div>
+            <div class="icon-card"><i class="ri-secure-payment-line"></i><span>Security</span></div>
+            <div class="icon-card"><i class="ri-wifi-line"></i><span>Networking</span></div>
+            <div class="icon-card"><i class="ri-customer-service-2-line"></i><span>IT Support</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- End Skills -->
+
+
+  <!-- ============================================================
+       PORTFOLIO SECTION
+       ============================================================ -->
+  <section class="section portfolio" id="portfolio">
+    <div class="container">
+
+      <div class="section-header" data-animate>
+        <p class="section-eyebrow">My Work</p>
+        <h2 class="section-title">Recent <span class="gradient-text">Projects</span></h2>
+        <p class="section-subtitle">A selection of websites and solutions I've built.</p>
+      </div>
+
+      <!-- Filter buttons -->
+      <div class="portfolio-filters" data-animate>
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web Design</button>
+        <button class="filter-btn" data-filter="business">Business</button>
+        <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+      </div>
+
+      <div class="portfolio-grid">
+
+        <!-- Project Card 1 -->
+        <div class="portfolio-card" data-category="web" data-animate>
+          <div class="portfolio-img">
+            <!-- REPLACE: <img src="assets/portfolio/portfolio-website.jpg" alt="Personal Portfolio"> -->
+            <div class="portfolio-img-placeholder"><i class="ri-user-star-line"></i></div>
+            <div class="portfolio-overlay">
+              <a href="#" class="portfolio-link"><i class="ri-eye-line"></i> View Live</a>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-category">Web Design</span>
+            <h3>Personal Portfolio Website</h3>
+            <p>A sleek, dark-themed personal portfolio showcasing skills, projects, and services for a tech professional.</p>
+            <div class="portfolio-tech">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Card 2 -->
+        <div class="portfolio-card" data-category="business" data-animate>
+          <div class="portfolio-img">
+            <div class="portfolio-img-placeholder"><i class="ri-restaurant-line"></i></div>
+            <div class="portfolio-overlay">
+              <a href="#" class="portfolio-link"><i class="ri-eye-line"></i> View Live</a>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-category">Business</span>
+            <h3>Restaurant Website</h3>
+            <p>An elegant restaurant site with menu display, reservation form, gallery, and location map integration.</p>
+            <div class="portfolio-tech">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Card 3 -->
+        <div class="portfolio-card" data-category="business" data-animate>
+          <div class="portfolio-img">
+            <div class="portfolio-img-placeholder"><i class="ri-hotel-line"></i></div>
+            <div class="portfolio-overlay">
+              <a href="#" class="portfolio-link"><i class="ri-eye-line"></i> View Live</a>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-category">Business</span>
+            <h3>Hotel Website</h3>
+            <p>Premium hotel website with room listings, photo gallery, booking inquiry form, and amenities showcase.</p>
+            <div class="portfolio-tech">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Card 4 -->
+        <div class="portfolio-card" data-category="business" data-animate>
+          <div class="portfolio-img">
+            <div class="portfolio-img-placeholder"><i class="ri-scissors-line"></i></div>
+            <div class="portfolio-overlay">
+              <a href="#" class="portfolio-link"><i class="ri-eye-line"></i> View Live</a>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-category">Business</span>
+            <h3>Barbershop Website</h3>
+            <p>Modern barbershop site with services list, team profiles, booking form, and Instagram-style gallery.</p>
+            <div class="portfolio-tech">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Card 5 -->
+        <div class="portfolio-card" data-category="web" data-animate>
+          <div class="portfolio-img">
+            <div class="portfolio-img-placeholder"><i class="ri-rocket-line"></i></div>
+            <div class="portfolio-overlay">
+              <a href="#" class="portfolio-link"><i class="ri-eye-line"></i> View Live</a>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-category">Web Design</span>
+            <h3>Business Landing Page</h3>
+            <p>High-converting business landing page with hero section, features, testimonials, and a clear call-to-action.</p>
+            <div class="portfolio-tech">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Card 6 — Future work placeholder -->
+        <div class="portfolio-card portfolio-card-future" data-category="ecommerce" data-animate>
+          <div class="portfolio-img">
+            <div class="portfolio-img-placeholder future-placeholder"><i class="ri-add-circle-line"></i></div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-category">Coming Soon</span>
+            <h3>Your Project Here</h3>
+            <p>This slot is reserved for our next collaboration. Let's build something amazing together.</p>
+            <a href="#contact" class="btn btn-outline btn-sm">Start a Project</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- End Portfolio -->
+
+
+  <!-- ============================================================
+       TESTIMONIALS SECTION
+       ============================================================ -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+
+      <div class="section-header" data-animate>
+        <p class="section-eyebrow">Client Feedback</p>
+        <h2 class="section-title">What Clients <span class="gradient-text">Say</span></h2>
+        <p class="section-subtitle">Real results, real relationships.</p>
+      </div>
+
+      <div class="testimonials-grid">
+
+        <!-- Testimonial 1 -->
+        <div class="testimonial-card" data-animate>
+          <div class="testimonial-stars">
+            <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+          </div>
+          <blockquote>
+            "Phil delivered our restaurant website in under a week. It looks incredible on mobile,
+            our customers keep complimenting it, and we've already seen more bookings coming through online."
+          </blockquote>
+          <div class="testimonial-author">
+            <div class="author-avatar">NK</div>
+            <div class="author-info">
+              <strong>Nakato Kizza</strong>
+              <span>Owner, Taste of Kampala Restaurant</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="testimonial-card" data-animate>
+          <div class="testimonial-stars">
+            <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+          </div>
+          <blockquote>
+            "I was struggling with my final year IT project. Phil walked me through everything
+            patiently and helped me understand concepts I'd been stuck on for weeks. Highly recommended!"
+          </blockquote>
+          <div class="testimonial-author">
+            <div class="author-avatar">BM</div>
+            <div class="author-info">
+              <strong>Brian Mugisha</strong>
+              <span>IT Student, Makerere University</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="testimonial-card" data-animate>
+          <div class="testimonial-stars">
+            <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i><i class="ri-star-half-fill"></i>
+          </div>
+          <blockquote>
+            "Our hotel's old website was embarrassing. Phil redesigned it completely — it now looks
+            professional, loads fast, and we rank on Google for Kampala hotels. Worth every shilling."
+          </blockquote>
+          <div class="testimonial-author">
+            <div class="author-avatar">AO</div>
+            <div class="author-info">
+              <strong>Amara Ochieng</strong>
+              <span>Manager, Lakeview Hotel & Suites</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 4 -->
+        <div class="testimonial-card" data-animate>
+          <div class="testimonial-stars">
+            <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+          </div>
+          <blockquote>
+            "Phil set up all five computers in our office, installed the software, configured the
+            network, and trained our team — all in one day. Professional, efficient, and affordable."
+          </blockquote>
+          <div class="testimonial-author">
+            <div class="author-avatar">JN</div>
+            <div class="author-info">
+              <strong>Joyce Namukasa</strong>
+              <span>CEO, Namukasa Consultants Ltd</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- End Testimonials -->
+
+
+  <!-- ============================================================
+       PRICING SECTION
+       ============================================================ -->
+  <section class="section pricing" id="pricing">
+    <div class="container">
+
+      <div class="section-header" data-animate>
+        <p class="section-eyebrow">Investment</p>
+        <h2 class="section-title">Pricing <span class="gradient-text">Plans</span></h2>
+        <p class="section-subtitle">Transparent, fair pricing for real businesses. All prices in UGX.</p>
+      </div>
+
+      <div class="pricing-grid">
+
+        <!-- Basic Plan -->
+        <div class="pricing-card" data-animate>
+          <div class="pricing-header">
+            <p class="plan-name">Basic Website</p>
+            <div class="plan-price">
+              <span class="price-currency">UGX</span>
+              <span class="price-amount">350K</span>
+              <span class="price-period">/ project</span>
+            </div>
+            <p class="plan-desc">Perfect for individuals, freelancers, and small local businesses.</p>
+          </div>
+          <ul class="plan-features">
+            <li><i class="ri-check-line"></i> Up to 4 Pages</li>
+            <li><i class="ri-check-line"></i> Mobile Responsive Design</li>
+            <li><i class="ri-check-line"></i> Contact Form</li>
+            <li><i class="ri-check-line"></i> Basic SEO Setup</li>
+            <li><i class="ri-check-line"></i> Social Media Links</li>
+            <li><i class="ri-check-line"></i> 1 Month Free Support</li>
+            <li class="feature-no"><i class="ri-close-line"></i> E-commerce Features</li>
+            <li class="feature-no"><i class="ri-close-line"></i> Custom Animations</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline">Get Started</a>
+        </div>
+
+        <!-- Business Plan (Featured) -->
+        <div class="pricing-card pricing-featured" data-animate>
+          <div class="pricing-badge">Most Popular</div>
+          <div class="pricing-header">
+            <p class="plan-name">Business Website</p>
+            <div class="plan-price">
+              <span class="price-currency">UGX</span>
+              <span class="price-amount">750K</span>
+              <span class="price-period">/ project</span>
+            </div>
+            <p class="plan-desc">For growing businesses ready to make a serious online impact.</p>
+          </div>
+          <ul class="plan-features">
+            <li><i class="ri-check-line"></i> Up to 8 Pages</li>
+            <li><i class="ri-check-line"></i> Custom Design &amp; Animations</li>
+            <li><i class="ri-check-line"></i> Contact + Booking Forms</li>
+            <li><i class="ri-check-line"></i> Advanced SEO Setup</li>
+            <li><i class="ri-check-line"></i> Google Maps Integration</li>
+            <li><i class="ri-check-line"></i> WhatsApp Chat Button</li>
+            <li><i class="ri-check-line"></i> 3 Months Free Support</li>
+            <li><i class="ri-check-line"></i> Basic Analytics Setup</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary">Get Started</a>
+        </div>
+
+        <!-- Premium Plan -->
+        <div class="pricing-card" data-animate>
+          <div class="pricing-header">
+            <p class="plan-name">Premium Package</p>
+            <div class="plan-price">
+              <span class="price-currency">UGX</span>
+              <span class="price-amount">1.5M+</span>
+              <span class="price-period">/ project</span>
+            </div>
+            <p class="plan-desc">Full-featured solution for established businesses &amp; e-commerce.</p>
+          </div>
+          <ul class="plan-features">
+            <li><i class="ri-check-line"></i> Unlimited Pages</li>
+            <li><i class="ri-check-line"></i> E-commerce / Online Store</li>
+            <li><i class="ri-check-line"></i> Payment Gateway Integration</li>
+            <li><i class="ri-check-line"></i> Custom Branding &amp; Identity</li>
+            <li><i class="ri-check-line"></i> Full SEO Optimization</li>
+            <li><i class="ri-check-line"></i> Blog / CMS Integration</li>
+            <li><i class="ri-check-line"></i> 6 Months Free Support</li>
+            <li><i class="ri-check-line"></i> Priority Response</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline">Get Started</a>
+        </div>
+
+      </div>
+
+      <p class="pricing-note" data-animate>
+        <i class="ri-information-line"></i>
+        Prices are negotiable based on scope. IT support and maintenance are billed separately.
+        <a href="#contact">Contact me</a> for a custom quote.
+      </p>
+
+    </div>
+  </section>
+  <!-- End Pricing -->
+
+
+  <!-- ============================================================
+       CONTACT SECTION
+       ============================================================ -->
+  <section class="section contact" id="contact">
+    <div class="container">
+
+      <div class="section-header" data-animate>
+        <p class="section-eyebrow">Get In Touch</p>
+        <h2 class="section-title">Let's <span class="gradient-text">Work Together</span></h2>
+        <p class="section-subtitle">Have a project in mind? Let's talk about it.</p>
+      </div>
+
+      <div class="contact-grid">
+
+        <!-- Contact Info -->
+        <div class="contact-info" data-animate>
+          <h3>Reach Out Directly</h3>
+          <p>Based in Kampala, Uganda — available for local and remote projects across Africa and beyond.</p>
+
+          <div class="contact-items">
+
+            <div class="contact-item">
+              <div class="contact-icon"><i class="ri-map-pin-2-line"></i></div>
+              <div>
+                <strong>Location</strong>
+                <span>Kampala, Uganda</span>
+              </div>
+            </div>
+
+            <!-- REPLACE: update your actual phone number -->
+            <div class="contact-item">
+              <div class="contact-icon"><i class="ri-phone-line"></i></div>
+              <div>
+                <strong>Phone / WhatsApp</strong>
+                <a href="tel:+256700000000">+256 700 000 000</a>
+              </div>
+            </div>
+
+            <!-- REPLACE: update your actual email -->
+            <div class="contact-item">
+              <div class="contact-icon"><i class="ri-mail-line"></i></div>
+              <div>
+                <strong>Email</strong>
+                <a href="mailto:philcollins@email.com">philcollins@email.com</a>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- WhatsApp CTA -->
+          <!-- REPLACE: update the phone number in the href -->
+          <a href="https://wa.me/256700000000?text=Hi%20Phil%2C%20I%20found%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20project."
+             class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
+            <i class="ri-whatsapp-line"></i> Chat on WhatsApp
+          </a>
+
+          <!-- Social Media Links -->
+          <!-- REPLACE: update each href with your actual profile URL -->
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
+              <i class="ri-github-line"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+              <i class="ri-linkedin-line"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="Twitter/X" target="_blank" rel="noopener noreferrer">
+              <i class="ri-twitter-x-line"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+              <i class="ri-instagram-line"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+              <i class="ri-facebook-line"></i>
+            </a>
+          </div>
+
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-wrap" data-animate>
+          <form class="contact-form" id="contactForm" novalidate>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" placeholder="John Doe" required />
+                <span class="form-error" id="nameError"></span>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" placeholder="john@example.com" required />
+                <span class="form-error" id="emailError"></span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject *</label>
+              <input type="text" id="subject" name="subject" placeholder="Website Development Project" required />
+              <span class="form-error" id="subjectError"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="service">Service Interested In</label>
+              <select id="service" name="service">
+                <option value="">— Select a Service —</option>
+                <option value="website-design">Website Design</option>
+                <option value="website-development">Website Development</option>
+                <option value="ecommerce">E-commerce Website</option>
+                <option value="maintenance">Website Maintenance</option>
+                <option value="it-support">IT Support</option>
+                <option value="coursework">Coursework Assistance</option>
+                <option value="software">Software Installation</option>
+                <option value="consultation">Technical Consultation</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Your Message *</label>
+              <textarea id="message" name="message" rows="5"
+                placeholder="Tell me about your project, goals, timeline, and budget..." required></textarea>
+              <span class="form-error" id="messageError"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+              <i class="ri-send-plane-line"></i>
+              <span>Send Message</span>
+            </button>
+
+            <!-- Success / Error feedback message -->
+            <div class="form-feedback" id="formFeedback"></div>
+
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- End Contact -->
+
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-grid">
+
+        <!-- Brand column -->
+        <div class="footer-brand">
+          <a href="#home" class="nav-logo">
+            <span class="logo-bracket">&lt;</span>PCD<span class="logo-bracket">/&gt;</span>
+          </a>
+          <p>Building digital solutions that help businesses grow — from Kampala to the world.</p>
+          <div class="social-links">
+            <!-- REPLACE: update with your actual social media URLs -->
+            <a href="#" class="social-link" aria-label="GitHub"><i class="ri-github-line"></i></a>
+            <a href="#" class="social-link" aria-label="LinkedIn"><i class="ri-linkedin-line"></i></a>
+            <a href="#" class="social-link" aria-label="Twitter/X"><i class="ri-twitter-x-line"></i></a>
+            <a href="#" class="social-link" aria-label="Instagram"><i class="ri-instagram-line"></i></a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Services -->
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Website Design</a></li>
+            <li><a href="#services">Web Development</a></li>
+            <li><a href="#services">E-commerce</a></li>
+            <li><a href="#services">IT Support</a></li>
+            <li><a href="#services">Coursework Help</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact info -->
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><i class="ri-map-pin-line"></i> Kampala, Uganda</li>
+            <!-- REPLACE with your phone -->
+            <li><i class="ri-phone-line"></i> +256 700 000 000</li>
+            <!-- REPLACE with your email -->
+            <li><i class="ri-mail-line"></i> philcollins@email.com</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear"></span> Phil Collins Darlington. All rights reserved.</p>
+        <p>Designed &amp; Built with <i class="ri-heart-fill" style="color:#e74c3c"></i> in Kampala, Uganda</p>
+      </div>
+
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+
+  <!-- ============================================================
+       BACK TO TOP BUTTON
+       ============================================================ -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="ri-arrow-up-line"></i>
+  </button>
+
+
+  <!-- Main JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
