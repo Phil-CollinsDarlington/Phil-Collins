@@ -118,10 +118,14 @@ body {
   overflow-x: hidden;
 }
 /*logo size */
-img {
-    filter: brightness(0) invert(1);
+.nav-logo img {
+    filter: brightness(0) saturate(100%) invert(56%) sepia(98%) saturate(2000%) hue-rotate(170deg);
     width: 75px;
     height: auto;
+}
+.nav-logo:hover {
+    filter: brightness(0) saturate(100%) invert(56%) sepia(98%) saturate(2000%) hue-rotate(170deg);
+    box-shadow: 0 0 20px #00d4ff;
 }
 
 img {
@@ -494,6 +498,7 @@ p { color: var(--text-secondary); }
     border-radius: 20px;
 }
 .profile-placeholder img {
+    filter: brightness(0) saturate(100%) invert(56%) sepia(98%) saturate(2000%) hue-rotate(170deg);
     filter: brightness(0) invert(1);
     width: 400px;
     border-radius: 30px;
