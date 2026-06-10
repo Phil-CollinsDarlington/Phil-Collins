@@ -494,6 +494,7 @@ p { color: var(--text-secondary); }
     border-radius: 20px;
 }
 .profile-placeholder img {
+    filter: brightness(0) invert(1);
     width: 400px;
     border-radius: 30px;
 }
