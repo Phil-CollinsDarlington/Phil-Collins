@@ -119,6 +119,7 @@ body {
 }
 /*logo size */
 img {
+    filter: brightness(0) invert(1);
     width: 75px;
     height: auto;
 }
