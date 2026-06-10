@@ -488,6 +488,14 @@ p { color: var(--text-secondary); }
   border-radius: 50%;
   animation: pulse-dot 2s infinite;
 }
+.about-img-placeholder img {
+    width: 600px;
+    border-radius: 20px;
+}
+.profile-placeholder img {
+    width: 400px;
+    border-radius: 30px;
+}
 @keyframes pulse-dot {
   0%, 100% { box-shadow: 0 0 0 0 rgba(46,204,113,0.4); }
   50%       { box-shadow: 0 0 0 6px rgba(46,204,113,0); }
